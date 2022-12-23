@@ -42,7 +42,7 @@ def get_blog(index):
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
 
 """ <!--  <h1>Hey {{person_name.title()}}</h1>-->
 <!--  <h2>I think you are {{gender}}</h2>-->
