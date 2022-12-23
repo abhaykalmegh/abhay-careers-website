@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Blog from API</title>
+</head>
+<body>
+  {% for blog_post in post: %}
+    {% if blog_post["id"] == numm %}
+      <h2>{{blog_post["title"]}}</h2>
+      <h3>{{blog_post["subtitle"]}}</h3>
+    {% endif %}
+  {% endfor %}
+
+
+</body>
+</html>
