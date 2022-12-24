@@ -19,6 +19,7 @@ setup(
 'requests==2.28.1',
 'urllib3==1.26.13',
 'Werkzeug==2.2.2',
-'zipp==3.11.0'
+'zipp==3.11.0',
+'gunicorn==20.1.0'
     ],
 )
