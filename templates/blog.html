@@ -6,7 +6,7 @@
 </head>
 <body>
   {% for blog_post in post: %}
-    {% if blog_post["id"] == numm %}
+    {% if blog_post["id"] == numm: %}
       <h2>{{blog_post["title"]}}</h2>
       <h3>{{blog_post["subtitle"]}}</h3>
     {% endif %}

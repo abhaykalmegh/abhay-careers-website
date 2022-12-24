@@ -5,15 +5,14 @@
     <title>Title</title>
 </head>
 <body>
-
-
   <br>
-  <h4> Hello Python</h4>
+  <h2> Hello Python</h2>
   <h4> {{ 6*3 }} </h4>
   <h4> Give me random number {{num}} </h4>
-  <a href="{{url_for('get_blog')}}"> Go to blog</a>
+  <a href="{{url_for('get_blog',index = 2)}}"> Go to blog</a>
   <br>
-  <a href="{{url_for('get_blog')}}">Go to my Blog page</a>
+  <a href="{{url_for('get_blog',index = 2)}}">Go to my Blog page</a>
 </body>
 <footer>  <p>©Copyright {{year}} Walletdreams</p> </footer>
 </html>
+
